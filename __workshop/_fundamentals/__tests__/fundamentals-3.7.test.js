@@ -5,6 +5,10 @@ const repeat = require("../fundamentals-3.7");
 test("Exercise 7", () => {
   expect(repeat(["foo", 3])).toBe("foofoofoo");
   // add more tests here...
+  expect(repeat(["Tommy", 5])).toBe("TommyTommyTommyTommyTommy");
+  expect(repeat(["Bruce", 7])).toBe("BruceBruceBruceBruceBruceBruceBruce");
+  expect(repeat(["Dog", 2])).toBe("DogDog");
+  expect(repeat(["Chocolate", 3])).toBe("ChocolateChocolateChocolate");
 });
 
 // More info on jest expect: https://jestjs.io/docs/en/expect
